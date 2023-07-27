@@ -44,7 +44,7 @@ def calculator():
         elif choice == '4':
             print("Result: ", divide(num1, num2))
         else:
-            print("new comment")
+            print("some other new comment")
 
 if __name__ == "__main__":
     calculator()
