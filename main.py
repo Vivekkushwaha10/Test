@@ -25,7 +25,7 @@ def calculator():
         choice = input("Enter operation number (1/2/3/4/5): ")
 
         if choice == '5':
-            print("Goodbye!")
+            print("seeeee you later!")
             break
 
         if choice not in ['1', '2', '3', '4']:
@@ -45,7 +45,7 @@ def calculator():
             print("Result: ", divide(num1, num2))
         else:
 
-            print("some other new comment")
+            print("what is this I have no idea")
 
 if __name__ == "__main__":
     calculator()
